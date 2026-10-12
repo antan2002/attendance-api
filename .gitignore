@@ -1,0 +1,32 @@
+# --- secrets / local config (NEVER commit) ---
+.env
+.env.*
+!.env.example
+
+# --- Python virtual environments and caches ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# --- logs ---
+*.log
+
+# --- editors / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- local scratch / data dumps (not part of the submission) ---
+*.bson
+*.dump
+data/
+tmp/
